@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HistoryRecord"
+    tools:showIn="@layout/activity_history_record">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="364dp"
+            android:layout_height="525dp"
+            android:background="#F0F8FF"
+            android:text="  时间：2019年1月8日；记录1 ；类型:小轿车 ；数量：14\n
+ 时间：2018年11月8日；记录2 ；类型:货车 小轿车；数量：14\n
+ 时间：2018年10月8日；记录3 ；类型:卡车 ；数量：14\n
+ 时间：2018年9月8日；记录4 ；类型:小轿车 ；数量：13\n
+ 时间：2018年7月8日；记录5 ；类型:小轿车 ；数量：12\n"
+
+            android:textColor="#000000"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
